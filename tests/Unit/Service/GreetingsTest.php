@@ -13,6 +13,6 @@ class GreetingsTest extends TestCase
 
         $this->assertInstanceOf(Greetings::class, $greetings);
 
-        $this->assertEquals('Hello, Bob!', $greetings->greet('Bob'));
+        $this->assertEquals('Hello there, Bob!', $greetings->greet('Bob'));
     }
 }
